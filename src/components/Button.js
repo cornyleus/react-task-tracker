@@ -3,15 +3,15 @@ const Button = ({ color, text, onClick }) => {
     <button
       onClick={onClick}
       style={{ backgroundColor: color }}
-      className="btn"
+      className='btn'
     >
       {text}
     </button>
-  );
-};
+  )
+}
 
 Button.defaultProps = {
-  color: "steelblue",
-};
+  color: 'steelblue',
+}
 
-export default Button;
+export default Button
